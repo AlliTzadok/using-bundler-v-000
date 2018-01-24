@@ -8,4 +8,11 @@ gem "pry", :group => "development"
 
 group :test do
   gem "rspec"
+
+source "https://rubygems.org"
+gem "rspec"
+gem "sinatra"
+
+group :development do
+  gem "pry"
 end
